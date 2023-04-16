@@ -26,10 +26,6 @@ The checks:
  Bonus:
  - id is unique
 
-
-
-Try it with several frameworks - pandas, pydantic, Great Expectations, Pandera, mage, DBT.
-
 ### Tasklist
 
 For step-by-step guide with pydantic see [the tasklist]()./tasklist.md) and files in test_validate.py, validate.py

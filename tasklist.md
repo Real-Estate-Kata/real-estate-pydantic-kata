@@ -1,8 +1,8 @@
 - [ ] read csv
-    - write failing test for row count
-    - let it pass
-    - write failing test for column names
-    - make the test pass
+    - [x] write failing test for row count
+    - [ ] let it pass
+    - [x] write failing test for column names
+    - [ ] make the test pass
 
 - [ ] data object
     - write a failing test for creating a House object with  yearbuilt 1800
@@ -50,7 +50,6 @@
     - make it pass 
 
 - [ ] HouseList only of valid houses from csv
-
     - write a failing test to read csv in data/train.csv and only return valid houses. can you assert on number of houses?
     - do you have an error for fireplacequality being NA? what does pandas use for the missing value? is it different to what pydantic expects as the missing value for FireplaceQuality? what is the best way to fix that? 
 
