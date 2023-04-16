@@ -1,5 +1,5 @@
 # data-kata
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/tmylk/data-kata/)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Real-Estate-Kata/real-estate-pydantic-kata)
 
 Coding exercises for improving Data skills
 
