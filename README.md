@@ -1,20 +1,22 @@
 # real-estate-kata
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Real-Estate-Kata/real-estate-pydantic-kata)
 
-Coding exercises for improving Data skills
-
-
+Coding exercise for improving data and collaboration skills.
 
 
 ## Exercise
 
-Read data from a csv and check the constraints. Sample data in data/train.csv and data/test.csv.
+- Read data from a csv
+- Check it is valid
+- Return as a list of Pydantic typed objects
 
-If constraints are met then return the data, if not raise an exception stating at least one failed row.
+Sample data in [data/train.csv](data/train.csv).
 
-columns to read = ['Id','Street','YearBuilt','Fireplaces', 'FireplaceQu','1stFlrSF', '2ndFlrSF']
+If the constraints are met then return the list of PyDantic models. If not, raise an exception stating at least one failed row.
 
-The checks:
+Columns to read = ['Id','Street','YearBuilt','Fireplaces', 'FireplaceQu','1stFlrSF', '2ndFlrSF']
+
+The constraints:
 
  - id is int
  - Street column is a string
@@ -28,13 +30,11 @@ The checks:
 
 ### Tasklist
 
-For step-by-step guide with pydantic see [the tasklist]()./tasklist.md) and files in test_validate.py, validate.py
-
-For solutions see Pull Requests.
+Step-by-step guide in [the tasklist](./tasklist.md) and files in [test_validate.py](./test_validate.py), [validate.py](./validate.py).
 
 ## Mob programming
 
-To read about mob programming setup, read 
+To read about remote mob programming setup, read 
 
 - [How to configure tech for mob programming](mob-programming.md)
 
