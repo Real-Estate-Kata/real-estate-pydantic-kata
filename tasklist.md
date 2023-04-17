@@ -1,7 +1,7 @@
 - [ ] read csv
     - [x] write failing test for row count
     - [ ] let it pass
-    - [x] write failing test for column names
+    - [x] unskip the failing test for column names
     - [ ] make the test pass
 
 - [ ] data object

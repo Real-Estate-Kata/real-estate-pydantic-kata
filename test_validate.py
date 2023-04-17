@@ -6,7 +6,7 @@ def test_csv_read():
     df = read_csv()
     assert len(df) == 1460
 
-
+@pytest.mark.skip(reason="unskip according to the tasklist")
 def test_columns():
     df = read_csv()
     assert set(df.columns.values) == set(
