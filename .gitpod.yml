@@ -3,7 +3,7 @@ tasks:
     command: code tasklist.md mob-programming.md
   - name: install reqs and start test
     init: pip3 install -r requirements.txt
-    command: pytest-watch test_validate.py
+    command: pytest-watch
 
 vscode:
   extensions:
