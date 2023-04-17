@@ -6,6 +6,8 @@ Coding exercise for improving data and collaboration skills.
 
 ## Exercise
 
+Follow [step-by-step guide](./tasklist.md) to:
+
 - Read data from a csv
 - Check it is valid
 - Return as a list of Pydantic typed objects
