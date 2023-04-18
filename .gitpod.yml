@@ -1,6 +1,6 @@
 tasks:
   - name: open tasklist
-    command: code tasklist.md mob-programming.md
+    command: code tasklist.md
   - name: install reqs and start test
     init: pip3 install -r requirements.txt
     command: pytest-watch
@@ -8,4 +8,9 @@ tasks:
 vscode:
   extensions:
     - mechatroner.rainbow-csv
+    - ms-python.python
+    - yzhang.markdown-all-in-one
+    - eamodio.gitlens
+    - lextudio.restructuredtext
+    - ritwickdey.liveserver
   
