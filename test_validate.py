@@ -28,6 +28,6 @@ def create_house():
     return House(**d)
 
 
-def test_create_house_YearBuilt():
+def test_create_valid_house():
     house = create_house()
     assert house.YearBuilt == 1800
