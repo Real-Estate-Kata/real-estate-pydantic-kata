@@ -1,11 +1,11 @@
 - [ ] read csv
     - [x] write failing test for row count
-    - [ ] let it pass
-    - [ ] unskip the failing test for column names
-    - [ ] make the test pass
+    - [x] let it pass
+    - [x] unskip the failing test for column names
+    - [x] make the test pass
 
-- [ ] data object
-    - write a failing test for creating a House object with  yearbuilt 1800
+- [x] data object
+    - find `test_create_house_YearBuilt` in `test_validate.py` and read it. It creates a House object with `yearbuilt=1800`
     - make it pass - create with no errors
     - one by one add Id=1, Street = 'Sesame', Fireplaces=0, FireplaceQu=None,  to the test and let it pass each time
     - once on green, think about refactoring. Would you like to rename fields to have more readable names? Do they have to be the same as CSV column names?
