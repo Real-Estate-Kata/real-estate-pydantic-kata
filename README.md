@@ -38,7 +38,7 @@ Step-by-step guide in [the tasklist](./tasklist.md) and files in [test_validate.
 
 To read about remote mob programming setup, read 
 
-- [How to configure tech for mob programming](mob-programming.md)
+- [How to configure tech for mob programming](remote-mob-programming.md)
 
 ## Credit
 
@@ -50,6 +50,5 @@ And inspired by a step in Laszlo's Titanic refactoring exercise  https://github.
 
 ## Data
 
-Dataset is taken from the [House prices 
-prediction competition on Kaggle](https://www.kaggle.com/competitions/home-data-for-ml-course/data). 
+Dataset is taken from the [House prices prediction competition on Kaggle](https://www.kaggle.com/competitions/home-data-for-ml-course/data). 
 
